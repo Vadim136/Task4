@@ -10,6 +10,7 @@ double sumE(double, double, int&);
 
 int main()
 {
+	setlocale(LC_ALL, "Russian");
     while(1)
     {
         int z=0;
@@ -18,7 +19,6 @@ int main()
         if(z!=1)
             break;
 
-        setlocale(LC_ALL, "Russian");
 	    cout << "Вычисление значений функций log(x+(sqrt((x*x)+1)))\n\n";
 	    double x; // Значение аргумента
 	    double func; // Точное значение функции
